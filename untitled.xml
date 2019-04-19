@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+<servers>
+ <server>
+   <id>quantum1tech-nexus</id>
+   <username>zhenglin</username>
+   <password>123123</password>
+ </server>
+</servers>
+<profiles>
+ <profile>
+   <id>quantum1tech-nexus</id>
+   <repositories>
+     <repository>
+       <id>quantum1tech-nexus</id>
+       <name>Quantum1tech nexus</name>
+       <url>http://maven.quantum1tech.com/repository/quantum1tech/</url>
+       <releases>
+         <enabled>true</enabled>
+       </releases>
+       <snapshots>
+         <enabled>true</enabled>
+       </snapshots>
+     </repository>
+   </repositories>
+   <pluginRepositories>
+     <pluginRepository>
+       <id>quantum1tech-nexus</id>
+       <name>Quantum1tech nexus</name>
+       <url>http://maven.quantum1tech.com/repository/quantum1tech/</url>
+       <releases>
+         <enabled>true</enabled>
+       </releases>
+       <snapshots>
+         <enabled>true</enabled>
+       </snapshots>
+     </pluginRepository>
+   </pluginRepositories>
+ </profile>
+</profiles>
+
+<activeProfiles>
+   <activeProfile>quantum1tech-nexus</activeProfile>
+</activeProfiles>
+</settings>
