@@ -5,6 +5,7 @@ date: 2019-05-27 19:50:17 +0800
 categories: Java LocalDate
 ---
 ## LocalDate常用方法总结
+
 ### 1. 简介
 	* LocalDate 只包含了年月日的信息，不包含时间和时区。
 	* LocalDate 重写了 toString() 方法，一般的格式为 "yyyy-MM-dd"
